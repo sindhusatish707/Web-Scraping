@@ -22,7 +22,7 @@ for quote, author in zip(quotes, authors):
 
 # We can save this data in csv files
 
-file = open("scraped_quotes.csv", "w")
+file = open("scraped_BfSoup_quotes.csv", "w")
 writer = csv.writer(file)
 
 writer.writerow(["QUOTES", "AUTHORS"])
